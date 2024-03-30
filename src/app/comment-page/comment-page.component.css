@@ -1,0 +1,8 @@
+.btn {
+    background-color: #872341; /* Altın rengi */
+    transition: background-color 0.3s ease; /* Arka plan renginde yumuşak geçiş efekti */
+    cursor: pointer; /* İmleç türü */
+}
+.btn:hover {
+    background-color: #fbff00; /* Hover durumunda arka plan rengi değişimi */
+}

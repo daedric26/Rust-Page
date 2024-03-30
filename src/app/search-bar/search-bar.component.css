@@ -1,13 +1,29 @@
+
 .btn {
-    border-radius: 0 5px 5px 0; /* Düğme köşe yuvarlaması */
-    background-color: #FFD700; /* Altın rengi */
+    border-radius: 5px 5px 5px 5px; /* Düğme köşe yuvarlaması */
+    background-color: #872341; /* Altın rengi */
     color: #fff; /* Beyaz yazı rengi */
     border: 1px solid #FFD700; /* Kenarlık rengi */
-    padding: 10px 15px; /* Düğme içeriği ile kenar arasındaki boşluk */
+    padding: 0px;
     cursor: pointer; /* İmleç türü */
     transition: background-color 0.3s ease; /* Arka plan renginde yumuşak geçiş efekti */
 }
 
 .btn:hover {
-    background-color: #ff0f0f; /* Hover durumunda arka plan rengi değişimi */
+    background-color: #fbff00; /* Hover durumunda arka plan rengi değişimi */
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 3px;
+    }
+  }
+
+  .img-size img {
+    padding: 5px;
 }
