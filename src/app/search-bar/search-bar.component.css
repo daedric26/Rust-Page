@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 0 5px 5px 0; /* Düğme köşe yuvarlaması */
+    background-color: #FFD700; /* Altın rengi */
+    color: #fff; /* Beyaz yazı rengi */
+    border: 1px solid #FFD700; /* Kenarlık rengi */
+    padding: 10px 15px; /* Düğme içeriği ile kenar arasındaki boşluk */
+    cursor: pointer; /* İmleç türü */
+    transition: background-color 0.3s ease; /* Arka plan renginde yumuşak geçiş efekti */
+}
+
+.btn:hover {
+    background-color: #ff0f0f; /* Hover durumunda arka plan rengi değişimi */
+}
