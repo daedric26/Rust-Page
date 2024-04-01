@@ -3,7 +3,7 @@
     border-radius: 5px 5px 5px 5px; /* Düğme köşe yuvarlaması */
     background-color: #872341; /* Altın rengi */
     color: #fff; /* Beyaz yazı rengi */
-    border: 1px solid #FFD700; /* Kenarlık rengi */
+    border: 1px solid; /* Kenarlık rengi */
     padding: 0px;
     cursor: pointer; /* İmleç türü */
     transition: background-color 0.3s ease; /* Arka plan renginde yumuşak geçiş efekti */

@@ -1,10 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url("assets\\background.png") !important;
-    background-size: cover !important; /* boyut ayarı /
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important; / sayfa kaydırıldığında arka planın sabit kalmasını sağlar */
-  }
-  
-  html, body { height: 100%; }
-  body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  background-image: url('assets\\background.png') !important;
+  background-size: cover !important; /* boyut ayarı /
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important; / sayfa kaydırıldığında arka planın sabit kalmasını sağlar */
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

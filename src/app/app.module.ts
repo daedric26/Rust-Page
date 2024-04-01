@@ -7,13 +7,15 @@ import { PlayerdetailsComponent } from './playerdetails/playerdetails.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CommentPageComponent } from './comment-page/comment-page.component';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerdetailsComponent,
     SearchBarComponent,
-    CommentPageComponent
+    CommentPageComponent,
+    AdminPanelComponent
   ],
   imports: [
     BrowserModule,
